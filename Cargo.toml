@@ -1,0 +1,10 @@
+[package]
+name = "horizon-mod-eatinganimation"
+version = "1.0.0"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "Eating Animation for Horizon, a native mod: the food and potion in your hand show bitten frames as you eat or drink them."
+
+[lib]
+path = "mixins/eatinganimation/runtime.rs"

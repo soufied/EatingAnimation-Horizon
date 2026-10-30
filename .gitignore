@@ -1,0 +1,7 @@
+/texturepacks/
+/dist/
+/target/
+__pycache__/
+*.pyc
+Cargo.lock
+*.zip
