@@ -6,6 +6,8 @@ While you eat food or milk, or drink a potion, the item in your hand shows its b
 The frames come from a resource pack you build from your own copy of the EatingAnimation
 download with `tools/make_frame_pack.py`, and drop into Horizon's `resourcepacks/` folder.
 
+![Eating animation preview](preview/eatinganimation.gif)
+
 ## Build
 
 ```sh
