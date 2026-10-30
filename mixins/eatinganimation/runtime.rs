@@ -1,4 +1,6 @@
+#[allow(dead_code)]
 pub const ID: &str = "eatinganimation";
+#[allow(dead_code)]
 pub const VERSION: &str = "1.0.0";
 
 const TICKS_PER_STAGE: f32 = 30.0;
