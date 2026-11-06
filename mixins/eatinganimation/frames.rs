@@ -77,5 +77,8 @@ fn official_eatinganimation_frame(
         layers,
         oversized_in_gui: resolved.oversized_in_gui,
         animated,
+        cit_glint: None,
+        hdr_tier: 0,
+        hdr_light: 0,
     })
 }

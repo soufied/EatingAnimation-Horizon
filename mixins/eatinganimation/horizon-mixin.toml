@@ -1,10 +1,10 @@
 [mod]
 id = "eatinganimation"
-version = "0.1.1"
+version = "0.2.0"
 priority = 200
 
 [compatibility]
-horizon_revision = "142388e1c136e622652ec7505af15d8ad195e041"
+horizon_revision = "6d99e14ff0c70ae60bc56b67829b526409fa068e"
 
 [[module]]
 id = "runtime"
@@ -16,7 +16,7 @@ source = "runtime.rs"
 id = "held-frame"
 kind = "HEAD"
 cancellable = true
-target = "horizon_client::item_render::ItemRenderer::resolve"
+target = "horizon_client_lib::item_render::ItemRenderer::resolve_with_rule"
 helper = "frames.rs"
 bindings = [
   { name = "renderer", ty = "&crate::item_render::ItemRenderer", value = "self" },
@@ -35,4 +35,16 @@ target = "horizon_client::game::native_hooks::Game<'_>::native_mods"
 helper = "list.rs"
 bindings = [
   { name = "mods", ty = "&mut Vec<crate::game::native_hooks::NativeMod>", value = "&mut *mods" },
+]
+
+[[injection]]
+id = "embedded-content"
+kind = "HEAD"
+cancellable = true
+target = "horizon_client::game::mods::content_root"
+helper = "embedded_content.rs"
+bindings = [
+  { name = "root", ty = "&std::path::Path", value = "root" },
+  { name = "enabled", ty = "&std::collections::BTreeSet<String>", value = "enabled" },
+  { name = "dev", ty = "&[std::path::PathBuf]", value = "dev" },
 ]

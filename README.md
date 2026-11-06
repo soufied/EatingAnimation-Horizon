@@ -10,19 +10,16 @@
 
 While you eat food, or drink a potion or milk, the item in your hand shows its bitten frames as you go.
 
-The frames come from a resource pack. You can use one of two options:
+The frames are built into the mod. No resource pack is needed: the textures and models are compiled into the native
+build as a content mod (`mixins/eatinganimation/data/eatinganimation-content.hmod`), and loaded with the game's resources.
 
-- **Ready-made pack**, included in Releases:
-  - `EatingAnimationVanillaTexturePack.zip`
-  
-  Put the one you want into Horizon's `resourcepacks/` folder.
-- **Build your own** from your copy of the EatingAnimation download, with `tools/make_frame_pack.py`:
+To rebuild that content from a frame pack (for example a new version of the Eating Animation textures):
 
-  ```sh
-  python3 tools/make_frame_pack.py <EatingAnimation download (zip or folder)> <out.zip>
-  ```
+```sh
+python3 tools/pack_to_content.py <frame pack (zip or folder)> mixins/eatinganimation/data/eatinganimation-content.hmod
+```
 
-  Then drop the resulting zip into Horizon's `resourcepacks/` folder.
+The frame pack can be the one `tools/make_frame_pack.py` makes from the original EatingAnimation download.
 
 ## Build
 
