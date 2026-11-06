@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/farmersdelight_mushroom_rice_eating_1"
+  }
+}

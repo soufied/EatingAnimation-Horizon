@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/the_bumblezone_royal_jelly_bottle_eating_1"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/eatinganimationid_potion_overlay_drinking_1",
+    "layer1": "eatinganimation:item/eatinganimationid_bottle_without_cork"
+  }
+}

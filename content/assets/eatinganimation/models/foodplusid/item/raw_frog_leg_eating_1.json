@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/foodplusid_raw_frog_leg_eating_1"
+  }
+}

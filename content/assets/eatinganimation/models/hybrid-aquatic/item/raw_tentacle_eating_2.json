@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/hybrid-aquatic_raw_tentacle_eating_2"
+  }
+}

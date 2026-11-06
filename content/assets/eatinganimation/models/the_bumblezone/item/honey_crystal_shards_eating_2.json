@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/the_bumblezone_honey_crystal_shards_eating_2"
+  }
+}

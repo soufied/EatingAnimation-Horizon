@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/additionaladditions_berry_pie_eating_0"
+  }
+}

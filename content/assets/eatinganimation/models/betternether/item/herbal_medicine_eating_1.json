@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "eatinganimation:item/betternether_herbal_medicine_eating_1"
+  }
+}

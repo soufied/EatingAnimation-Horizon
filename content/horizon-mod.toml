@@ -1,0 +1,9 @@
+id = "eatinganimation"
+name = "Eating Animation - Content"
+version = "0.2.0"
+description = "Textures and models for eatinganimation, moved from a pack."
+authors = ["Theoness1", "sillysoufi"]
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+namespaces = []
