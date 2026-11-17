@@ -1,3 +1,5 @@
+This project is abandoned. I am no longer interested in it. You can do whatever you want with these mods, I do not care.
+
 # Eating Animation (Horizon native mod)
 
 ![Eating Animation icon](icons/eatinganimation.png)
